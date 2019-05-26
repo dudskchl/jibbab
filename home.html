@@ -3,19 +3,74 @@
 <head>
     <title>jibbab-HOME</title>
     <meta charset="utf-8">
+    <style>
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #grid ol{
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding-left:33px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            border-bottom:1px solid gray;
+            margin:0;
+            padding:20px;
+        }
+        #article{
+            padding-left:25px;
+            text-align: center;
+        }
+        #grad {
+         background-image: linear-gradient(to bottom right,white, rgb(83, 182, 182));
+        }
+
+
+    </style>
+     
 </head>
-<body>
-    <h1><a href="index.html">홈</a></h1>
+<body id="grad">
+    <h1><a href="main.html">MAIN</a></h1>
+
+  <div id="grid"> 
     <ol>
         <li><a href="home.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="apply.html">APPLY</a></li>
         <br>
     </ol>
-    <h1>집:빱</h1>
-
-        <a href="http://127.0.0.1:5500/about.html">서비스 소개</a>
-</body>
+    <div id="article">
+        <h2>집:빱</h2>
+        <p>집빱이란 아파트 및 지역 공동체에서 식사를 공유 및 판매하는 플랫폼입니다
+            <br>
+            요리를 해먹기 애매한 1인가구나 노인 및 유아 청소년에게 가정주부들이 남는 시간
+    을 <br>활용해 음식을 제공, 판매할 수 있는 서비스를 제공합니다.
+        </p>
+        <img src="party.jpg" width="60%" height="600px">
+    </div>
+  </div>   
+                <!--Start of Tawk.to Script-->
+                <script type="text/javascript">
+                    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                    (function(){
+                    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                    s1.async=true;
+                    s1.src='https://embed.tawk.to/5cea71c82135900bac128c58/default';
+                    s1.charset='UTF-8';
+                    s1.setAttribute('crossorigin','*');
+                    s0.parentNode.insertBefore(s1,s0);
+                    })();
+                    </script>
+                    <!--End of Tawk.to Script-->
+    </body>
 </html>
 
 
